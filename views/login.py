@@ -16,7 +16,7 @@ def show_login(authenticator):
     if authentication_status == False:
         st.error('Nome de usuário/senha incorretos')
     elif authentication_status == None:
-        st.warning('Por favor, insira seu nome de usuário e senha')
+        st.warning('Por favor, insira suas credenciais')
     elif authentication_status:
         st.success(f'Bem-vindo *{name}*')
         st.session_state['name'] = name
