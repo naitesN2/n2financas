@@ -4,7 +4,14 @@ from models.transaction import Transaction
 
 def save_transaction(transaction: Transaction, username: str):
     filename = f"data/{username}_transactions.csv"
-    
+
+    directory = os.path.dirname(filename)
+
+    #Cria o diretório data se não existir
+    if not os.path.exists(directory):
+
+        os.makedirs(directory, exist_ok=True)
+
     
     if os.path.exists(filename):
         df = pd.read_csv(filename)
