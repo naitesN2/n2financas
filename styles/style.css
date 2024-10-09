@@ -1,0 +1,48 @@
+/* Cores personalizadas */
+:root {
+    --primary-color: #BFB9AE;
+    --secondary-color: #8C8881;
+    --accent-color: #403D39;
+    --background-color: #D9D1C7;
+    --text-color: #0D0000;
+}
+
+/* Estilo geral */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+/* Botões */
+.stButton > button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.stButton > button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Inputs */
+.stTextInput > div > div > input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Seletores */
+.stSelectbox > div > div > select {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Métricas */
+.stMetric {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+}

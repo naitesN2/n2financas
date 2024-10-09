@@ -1,0 +1,7 @@
+streamlit
+streamlit-authenticator
+pyyaml
+pandas
+plotly
+bcrypt
+streamlit-option-menu
