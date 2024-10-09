@@ -1,0 +1,10 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    naites:
+      email: naites@gmail.com
+      name: Wesley Naites de Paulo
+      password: $2b$12$M/NCgY5hoMRlQHVDMWckmeEq168l.duztB9EPiELFCh2fI91p33O2

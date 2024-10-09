@@ -7,12 +7,6 @@ venv/
 *.pyc
 __pycache__/
 
-# Arquivos de dados
-*.csv
-
-# Arquivos de configuração com informações sensíveis
-config.yaml
-
 # Logs
 *.log
 
